@@ -1,0 +1,8 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "cpp": "g++ vball.cpp helper.cpp -o output\\vball.exe && output\\vball.exe"
+    }
+}
+
+

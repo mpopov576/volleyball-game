@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build volleyball",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "vball.cpp",
+        "helper.cpp",
+        "-o",
+        "output/vball.exe"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
